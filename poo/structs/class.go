@@ -11,6 +11,6 @@ func main() {
 	e := Employee{}
 	fmt.Printf("%v", e)
 	e.id = 1
-	e.name = "Name"
+	e.name = "Rodo"
 	fmt.Printf("%v", e)
 }
