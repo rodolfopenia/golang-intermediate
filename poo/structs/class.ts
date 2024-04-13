@@ -1,6 +1,11 @@
 class Employee {
   private name: string;
   private id: number;
+
+  constructor(id: number, name: string) {
+    this.id = id;
+    this.name = name;
+  }
   
   public getName(): string {
     return this.name;
@@ -19,7 +24,7 @@ class Employee {
   }
 }
 
-const employee = new Employee();
+const employee = new Employee(2, 'name');
 employee.setId(1);
 employee.setName('Name');
 
