@@ -25,8 +25,8 @@ func main() {
 	// Map
 	m := make(map[string]int)
 	m["Key"] = 6
-
-	fmt.Println(m["Key"])
+	fmt.Println("MAP")
+	fmt.Println(m["Key2"])
 
 	// Slice
 	s := []int{1, 2, 3}
@@ -44,9 +44,9 @@ func main() {
 	// Pero no espera a que termine de ejecutar.
 	// Para eso crearemos los channels
 
-	c := make(chan int)
-	go doSomething(c)
-	<-c
+	//c := make(chan int)
+	//go doSomething(c)
+	//<-c
 
 	// Apuntadores
 	g := 25
